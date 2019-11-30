@@ -1,0 +1,135 @@
+
+span.btn-stop{
+    display: inline-block;
+}
+
+.delete {
+    font-size: 1.5rem;
+    color: #ff3547;
+}
+
+.delete:hover{
+    color:  #b10c00!important;
+    cursor: pointer;
+
+}
+
+.pause {
+    font-size: 1.5rem;
+}
+.pause:hover{
+    color: #00b0ff;
+    cursor: pointer;
+}
+
+.clock{
+    margin-right: 20px;
+    font-weight: 500;
+    font-size: 1rem;
+
+}
+
+h4.btn{
+    cursor: default;
+}
+
+.btnFloatPause, .btnFloatDelete {
+    padding-left: 15px!important;
+    padding-right: 15px!important;
+clip-path: circle(40%);}
+
+.btnFloatPause:hover{
+    background-color: #00acc1!important;
+}
+.btnFloatDelete:hover{
+    background-color: #b90211!important;
+}
+
+th {
+    background-color: #313f9f;
+    font-weight: 900!important;
+    color: white;
+    letter-spacing: 2px;
+    font-size: 1.25rem!important;
+}
+
+tr:nth-of-type(even){
+    background-color: #B1BBFF;
+}
+
+tr:nth-of-type(odd){
+    background-color: #fff !important;
+
+}
+
+td{
+    font-weight: 500!important;
+    color: #313f9f;
+    vertical-align: middle;
+}
+
+
+/* Select fourth row */
+tbody>tr>:nth-child(5),tbody>tr>:nth-child(6){
+    background-color: white!important;
+    border: 0;
+}
+
+tbody>tr>:nth-child(5):hover,tbody>tr>:nth-child(6):hover{
+    background-color: rgb(223, 233, 255) !important;
+}
+
+.btn-col{
+    width: 20px!important;
+}
+
+button.btn-remove{
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    border-radius: 50%;
+    background-color: rgba(255, 0, 0, 0.14);
+}
+button.btn-stop{
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    border-radius: 50%;
+    background-color: #bec8ff;
+}
+
+*:disabled{
+    background-color: #cccccc!important;
+}
+button[disabled]{
+    color: #000;
+}
+
+.redo {
+    font-size: 1.5rem;
+    color: white;
+}
+
+.btn-restore{
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    background-color:#313f9f;
+    border-radius: 50%;
+}
+
+.btn-restore:hover{
+    background-color: #B1BBFF;
+}
+
+.btn-tally{
+    background-color: #B1BBFF;
+    color: #313f9f;
+}
+
+#btn-mode{
+    background-color: #B1BBFF;
+    color: #313f9f;
+}
+
+#btn-mode:hover{
+    color: white;
+    background-color: #313f9f;
+}
